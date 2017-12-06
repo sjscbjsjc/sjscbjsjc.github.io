@@ -11,7 +11,7 @@ tags: ArangoDB
 
 ## 安装
 
-去 [ArangoDB 下载页面](https://www.arangodb.com/download/)下载相应的版本，Redhat 系列和 Debian 系列均有相应的 RPM 和 DEB 包，archlinux 用户可以通过 AUR 安装，不过 PGP 校验有点问题，需要使用 *yaourt --m-arg "--skipchecksums --skippgpcheck" -Sb arangodb3* 命令来安装。
+去 [ArangoDB 下载页面](https://www.arangodb.com/download/)下载相应的版本，Redhat 系列和 Debian 系列均有相应的 RPM 和 DEB 包，archlinux 用户可以通过 AUR 安装，不过 PGP 校验有点问题，需要使用 *yaourt \-\-m-arg \"\-\-skipchecksums \-\-skippgpcheck\" -Sb arangodb3* 命令来安装。
 
 安装完成后执行 *arango-secure-installation* ，进行基本的设置。
 
